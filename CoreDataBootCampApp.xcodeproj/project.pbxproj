@@ -8,14 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		FF0D395F2AE7A0F9009097E0 /* CoreDataBootCampAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0D395E2AE7A0F9009097E0 /* CoreDataBootCampAppApp.swift */; };
-		FF0D39612AE7A0F9009097E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0D39602AE7A0F9009097E0 /* ContentView.swift */; };
 		FF0D39632AE7A0FA009097E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF0D39622AE7A0FA009097E0 /* Assets.xcassets */; };
 		FF0D39662AE7A0FA009097E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF0D39652AE7A0FA009097E0 /* Preview Assets.xcassets */; };
-		FF0D39682AE7A0FA009097E0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0D39672AE7A0FA009097E0 /* Persistence.swift */; };
 		FF0D396B2AE7A0FA009097E0 /* CoreDataBootCampApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF0D39692AE7A0FA009097E0 /* CoreDataBootCampApp.xcdatamodeld */; };
 		FF0D39752AE7A0FA009097E0 /* CoreDataBootCampAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0D39742AE7A0FA009097E0 /* CoreDataBootCampAppTests.swift */; };
 		FF0D397F2AE7A0FA009097E0 /* CoreDataBootCampAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0D397E2AE7A0FA009097E0 /* CoreDataBootCampAppUITests.swift */; };
 		FF0D39812AE7A0FA009097E0 /* CoreDataBootCampAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0D39802AE7A0FA009097E0 /* CoreDataBootCampAppUITestsLaunchTests.swift */; };
+		FF0D398E2AE7A10E009097E0 /* CoreDataBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0D398D2AE7A10E009097E0 /* CoreDataBootCamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,16 +37,15 @@
 /* Begin PBXFileReference section */
 		FF0D395B2AE7A0F9009097E0 /* CoreDataBootCampApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataBootCampApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF0D395E2AE7A0F9009097E0 /* CoreDataBootCampAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootCampAppApp.swift; sourceTree = "<group>"; };
-		FF0D39602AE7A0F9009097E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FF0D39622AE7A0FA009097E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF0D39652AE7A0FA009097E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FF0D39672AE7A0FA009097E0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		FF0D396A2AE7A0FA009097E0 /* CoreDataBootCampApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataBootCampApp.xcdatamodel; sourceTree = "<group>"; };
 		FF0D39702AE7A0FA009097E0 /* CoreDataBootCampAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataBootCampAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF0D39742AE7A0FA009097E0 /* CoreDataBootCampAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootCampAppTests.swift; sourceTree = "<group>"; };
 		FF0D397A2AE7A0FA009097E0 /* CoreDataBootCampAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataBootCampAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF0D397E2AE7A0FA009097E0 /* CoreDataBootCampAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootCampAppUITests.swift; sourceTree = "<group>"; };
 		FF0D39802AE7A0FA009097E0 /* CoreDataBootCampAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootCampAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FF0D398D2AE7A10E009097E0 /* CoreDataBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootCamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +97,9 @@
 			isa = PBXGroup;
 			children = (
 				FF0D395E2AE7A0F9009097E0 /* CoreDataBootCampAppApp.swift */,
-				FF0D39602AE7A0F9009097E0 /* ContentView.swift */,
+				FF0D398D2AE7A10E009097E0 /* CoreDataBootCamp.swift */,
+				FFFDD6972AE7C451005DC695 /* CoreDataEntities */,
 				FF0D39622AE7A0FA009097E0 /* Assets.xcassets */,
-				FF0D39672AE7A0FA009097E0 /* Persistence.swift */,
 				FF0D39692AE7A0FA009097E0 /* CoreDataBootCampApp.xcdatamodeld */,
 				FF0D39642AE7A0FA009097E0 /* Preview Content */,
 			);
@@ -131,6 +129,13 @@
 				FF0D39802AE7A0FA009097E0 /* CoreDataBootCampAppUITestsLaunchTests.swift */,
 			);
 			path = CoreDataBootCampAppUITests;
+			sourceTree = "<group>";
+		};
+		FFFDD6972AE7C451005DC695 /* CoreDataEntities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreDataEntities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,9 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF0D39682AE7A0FA009097E0 /* Persistence.swift in Sources */,
-				FF0D39612AE7A0F9009097E0 /* ContentView.swift in Sources */,
 				FF0D396B2AE7A0FA009097E0 /* CoreDataBootCampApp.xcdatamodeld in Sources */,
+				FF0D398E2AE7A10E009097E0 /* CoreDataBootCamp.swift in Sources */,
 				FF0D395F2AE7A0F9009097E0 /* CoreDataBootCampAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
